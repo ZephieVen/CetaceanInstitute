@@ -1,0 +1,133 @@
+:root{
+  --cyan: #0091d2;
+  --red: #885457;
+  --darkred: #633a3a;
+  --babyblue: #557baf;
+  --darkbabyblue: #029;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  height: 154px;
+  background-color: var(--darkred);
+  background-image: url(../whale.jpg);
+  background-position: center;
+  background-size: 1500px 500px;
+  background-repeat: no-repeat;
+  /* background: lightblue  no-repeat fixed center; */
+  display: flex;
+  /* background-color: var(--darkred); */
+}
+nav{
+  display: flex;
+}
+nav ul{
+  margin-top: 114px;
+  display: flex;
+  list-style-type: none;
+}
+nav li{
+  background-color:  var(--darkred);
+  padding: 8px;
+}
+nav li:hover{
+  background-color: var(--red);
+}
+
+nav a{
+  text-decoration: none;
+  color: #ccc;
+  font-weight: bold;
+}
+
+main{
+  /* background-color: var(--babyblue); */
+  /* display: flex; */
+  justify-content: space-around;
+}
+
+ul{
+  list-style-type: none;
+}
+h1{
+  color: var(--red);
+  font-size: 25px;
+  text-align: center;
+}
+h2{
+  color: var(--babyblue);
+}
+hr{
+  border-top: 1px solid var(--red);
+  border-bottom: none;
+}
+.main-flex{
+  display: flex;
+  justify-content: space-around;
+  /* width: 500px; */
+  /* margin: 20px; */
+  /* padding: 10px; */
+  text-align: center;
+  /* background-color: var(--red); */
+}
+.main-flex img{
+  /* border-radius: 20px; */
+  width: 100%;
+  height: auto;
+
+}
+.main-flex p{
+  padding: 5px;
+}
+.main-flex .half{
+  padding: 10px;
+}
+.left{
+  width: 60%;
+}
+.right{
+  background-color: #ccc;
+  margin: 20px;
+  width: 40%;
+  border-radius: 20px;
+}
+.button{
+  background-color: var(--babyblue);
+  padding: 20px;
+  /* width: 20px; */
+  margin: 0 auto;
+}
+.button:hover{
+  background-color: var(--darkbabyblue);
+
+}
+#tour{
+  border: none;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+.aside{
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+}
+.aside ul{
+
+  list-style-type: none;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--darkred);
+  padding: 10px;
+  color: #fff;
+}
+.footer-section{
+  flex: 1;
+  padding: 20px;
+}
